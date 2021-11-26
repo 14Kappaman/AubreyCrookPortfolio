@@ -24,9 +24,14 @@ h3,
 h4 { 
     margin: 0;
     
+    
 }
-p { 
-    margin: 0;
+section > h2 {
+    border-right: black 10px solid;;
+    text-align: right;
+    padding: 10px }
+p {  
+    margin: 1rem 0;
 
 }
 header {
@@ -74,3 +79,36 @@ nav a:last-child{
     margin-right: 0;
     
 }
+main {
+    
+    font-size: 1.5rem;
+    
+
+}
+img {
+    width: 100%;
+    object-fit: contain;
+
+}
+#portfolioitems {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10px;
+
+}
+.Application {
+background-color: rgb(209, 196, 196);
+padding: 10px;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 10px 50px;
+    grid-gap: 10px; 
+}
+@media only screen and (max-width: 500px) {
+    section {
+        grid-template-columns: 1fr;
+    }
+}
+
