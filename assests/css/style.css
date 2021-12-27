@@ -26,10 +26,7 @@ h4 {
     
     
 }
-section > h2 {
-    border-right: black 10px solid;;
-    text-align: right;
-    padding: 10px }
+
 p {  
     margin: 1rem 0;
 
@@ -82,8 +79,15 @@ nav a:last-child{
 main {
     
     font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 45px;
     
 
+}
+.main-wrapper {
+    max-width: 88%;
+    margin-right: auto;
+    margin-left: auto;
 }
 img {
     width: 100%;
@@ -91,21 +95,71 @@ img {
 
 }
 #portfolioitems {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 
 }
-.Application {
+.application {
 background-color: rgb(209, 196, 196);
-padding: 10px;
+padding: 0 0 20px 0;
+border: 5px solid black;
+color: black;
+min-height: 150px;
+max-height: 150px;
+flex-basis: calc(50% - 1em);
+display: flex;
+align-items: flex-end;
+margin: 0.5em;
+text-decoration: none;
+background-size: 150%;
+
+
 }
-section {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    padding: 10px 50px;
-    grid-gap: 10px; 
+.application:first-child{
+    min-height: 400px;
+    flex-basis: 100%;
+
 }
+.application:hover {
+    background-color: white;
+
+}
+.application div {
+    background-color: blue;
+}
+.application h3 { 
+    font-size: 1.6rem;
+} 
+
+.page-section > h2 {
+    border-right: black 10px solid;;
+    text-align: right;
+    padding-right: 15px;
+    flex: 0 0 20%;
+    font-size: 4vw;
+    line-height: 1.1;
+}
+.page-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: stretch;
+    padding: 10px 0px;
+    margin: 25px 0px; 
+}
+.page-section > div{
+    flex: 0 0 77%;
+
+}
+.page-section p {
+    margin-bottom: 20px;
+}
+ .cheap{
+     background-image: url("../images/cheapdateimagemodified.jpg");
+ }
 @media only screen and (max-width: 500px) {
     section {
         grid-template-columns: 1fr;
