@@ -160,6 +160,25 @@ background-size: 150%;
  .cheap{
      background-image: url("../images/cheapdateimagemodified.jpg");
  }
+
+ .led{
+    background-image: url("../images/Coding_and_Programming_-_Computer_Science_and_IT.jpg");
+}
+
+.calc{
+    background-image: url("../images/Connected_Smart_City.jpg");
+}
+
+.pastel{
+    background-image: url("../images/weather.jpg");
+}
+
+.buddy{
+    background-image: url("../images/Puzzle_in_a_lightbulb_-_Problem-solving_concept.jpg");
+}
+
+
+
 @media only screen and (max-width: 500px) {
     section {
         grid-template-columns: 1fr;
