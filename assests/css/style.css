@@ -125,9 +125,8 @@ transition: all 0.5s;
 
 }
 
-.application:hover {
-    background-color: black;
-
+.application:hover{
+     background-color:rgba(0, 0, 0, 0.3);
 }
 
 .application div {
@@ -176,12 +175,12 @@ transition: all 0.5s;
     background-image: url("../images/Connected_Smart_City.jpg");
 }
 
-.pastel{
-    background-image: url("../images/weather.jpg");
+.proeventplanning{
+    background-image: url("../images/ProEventPlanning.png");
 }
 
-.buddy{
-    background-image: url("../images/Puzzle_in_a_lightbulb_-_Problem-solving_concept.jpg");
+.employeemanagementsystem{
+    background-image: url("../images/EmployeeTracker.png");
 }
 
 
